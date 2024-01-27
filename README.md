@@ -22,7 +22,8 @@ Detach the front panel of the indoor unit. Remove the motherboard. Check the out
 
 Connect the B- wire to P and A+ wire to Q.
 
-![v400c](https://github.com/Yocee84/Midea-fan-coil-ESPHome/assets/25384303/19c5e2d6-1955-43c0-a6c0-93d7af01596e)
+![MKG C magasoldalfali fan-coil](https://github.com/Yocee84/Midea-FanCoil-ESPHome/assets/25384303/3ad40112-ef0d-4eaf-89ec-4232b98f10ff)
+
 
 
 When all is connected, place the back panel of the display back and put back the front panel of the indoor unit.
@@ -40,7 +41,8 @@ ESP32 CAN RS-485 IOT Engineer Control Module Development Board (flow pin configu
 
 https://www.lilygo.cc/products/t-can485?_pos=2&_psq=can&_ss=e&_v=1.0
 
-![can](https://github.com/Yocee84/Midea-fan-coil-ESPHome/assets/25384303/f0896d90-d77a-4e7c-b378-1d2515739950)
+![can](https://github.com/Yocee84/Midea-FanCoil-ESPHome/assets/25384303/ec98294c-4b06-4b46-9356-e78d09c8dd16)
+
 
 
 TTL Turn To RS485 Module Hardware Automatic Flow Control Module Serial UART Level Mutual Conversion Power Supply Module 3.3V 5V
@@ -49,12 +51,14 @@ https://www.aliexpress.us/item/3256801435432059.html?spm=a2g0o.productlist.main.
 
 You also need an esp32 panel for this panel. I use the ESP32 CAM module because I like it. If you would also use an external antenna, don't forget to order one or solder the motherboard resistor!
 
-![esp32cam](https://github.com/Yocee84/Midea-fan-coil-ESPHome/assets/25384303/21a3f0a5-2018-467a-915a-648a37cdd79c)
+![esp32cam](https://github.com/Yocee84/Midea-FanCoil-ESPHome/assets/25384303/41db714c-1b99-45be-a0ff-fdb2a66edfd6)
+
 
 
 https://www.aliexpress.us/item/3256806113048872.html?spm=a2g0o.productlist.main.1.4f0f3f77mU2rK9&algo_pvid=f52fcef5-90a0-47e2-accd-f82f7b8fed2d&aem_p4p_detail=202401270720294150456483594760001656668&algo_exp_id=f52fcef5-90a0-47e2-accd-f82f7b8fed2d-0&pdp_npi=4%40dis%21USD%2113.97%214.59%21%21%2199.83%2132.75%21%40210307c117063688290714222eac11%2112000036671494991%21sea%21US%21179588603%21&curPageLogUid=ZKY13LM54o7m&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202401270720294150456483594760001656668_1
 
-![modbus module for esp](https://github.com/Yocee84/Midea-fan-coil-ESPHome/assets/25384303/641a1ecb-0852-434d-b7da-dbb5fcab5a29)
+![modbus module for esp](https://github.com/Yocee84/Midea-FanCoil-ESPHome/assets/25384303/8b2f773b-bc86-49ca-886d-21e3723093fa)
+
 
 
 

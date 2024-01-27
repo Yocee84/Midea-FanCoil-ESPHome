@@ -4,7 +4,7 @@ The Midea fan-coil with PQE ports and clones like [Concept]([https://www.airwell
 
 <span style="color: red;">**See below for a ready-made ESPHome compatible heatpump controller!!**</span>
 
-![MKG C magasoldalfali fan-coil](https://github.com/Yocee84/Midea-fan-coil-ESPHome/assets/25384303/fbb1c6ea-7d2e-437e-84d8-ef4f1cf0a02c)
+![MKG C magasoldalfali fan-coil](https://github.com/Yocee84/Midea-FanCoil-ESPHome/assets/25384303/3ad40112-ef0d-4eaf-89ec-4232b98f10ff)
 
 ## Disclaimer
 
@@ -22,7 +22,8 @@ Detach the front panel of the indoor unit. Remove the motherboard. Check the out
 
 Connect the B- wire to P and A+ wire to Q.
 
-![MKG C magasoldalfali fan-coil](https://github.com/Yocee84/Midea-FanCoil-ESPHome/assets/25384303/3ad40112-ef0d-4eaf-89ec-4232b98f10ff)
+![v400c](https://github.com/Yocee84/Midea-FanCoil-ESPHome/assets/25384303/0c1dc8ac-2354-482a-a49c-4fa6d81ed471)
+
 
 
 

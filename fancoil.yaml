@@ -1,0 +1,99 @@
+sensor:
+# fancoil Register: 1 0=off 1=fan 2=cool 3=Heat 4=dry 5=auto
+  - platform: modbus_controller
+    modbus_controller_id: "fancoil"
+    name: "Fancoil Operational Mode"
+    id: "fancoil_operational_mode"
+    register_type: holding
+    address: 1601
+    value_type: U_WORD
+  # fancoil Register: 2
+  - platform: modbus_controller
+    modbus_controller_id: "fancoil"
+    name: "Fancoil Temp settings Ts"
+    id: "fancoil_temp_set"
+    register_type: holding
+    address: 1602
+    value_type: U_WORD
+    unit_of_measurement: "°C"
+  # fancoil Register: 3 0=low 3=mid 4=high 5=auto
+  - platform: modbus_controller
+    modbus_controller_id: "fancoil"
+    name: "Fancoil Air speed"
+    id: "fancoil_air_speed"
+    register_type: holding
+    address: 1603
+    value_type: U_WORD
+    unit_of_measurement: "°C"
+  # fancoil Register: 4
+  - platform: modbus_controller
+    modbus_controller_id: "fancoil"
+    name: "Fancoil indoor Temp"
+    id: "fancoil_indoor_temp"
+    register_type: holding
+    address: 1604
+    value_type: U_WORD
+    unit_of_measurement: "°C"
+  # fancoil Register: 5
+  - platform: modbus_controller
+    modbus_controller_id: "fancoil"
+    name: "Fancoil CW temp"
+    id: "fancoil_cw_temp"
+    register_type: holding
+    address: 1605
+    value_type: U_WORD
+    unit_of_measurement: "°C"
+  # fancoil Register: 6
+  - platform: modbus_controller
+    modbus_controller_id: "fancoil"
+    name: "Fancoil HW temp"
+    id: "fancoil_hw_temp"
+    register_type: holding
+    address: 1606
+    value_type: U_WORD
+    unit_of_measurement: "°C"
+    filters:
+      - lambda: return ((x - 30) / 2) - 5;
+
+  # fancoil Register: 13
+  - platform: modbus_controller
+    modbus_controller_id: "fancoil"
+    name: "Fancoil water pump status"
+    id: "fancoil_waterpump_status"
+    register_type: holding
+    address: 1613
+    value_type: U_WORD       
+
+number:
+  - platform: modbus_controller
+    modbus_controller_id: "fancoil"
+    name: "Fancoil Temp settings Ts_num"
+    id: "fancoil_temp_set_num"
+    register_type: holding
+    address: 1602
+    value_type: U_WORD
+    unit_of_measurement: "°C"
+    min_value: 5
+    max_value: 35
+    step: 1
+
+switch:
+  # Ha van valamilyen fancoil switchet 
+  # (pl. menetztesz a regiszteren bitmaskkal)
+  # ...
+
+select:
+  - platform: modbus_controller
+    modbus_controller_id: "fancoil"
+    name: "Fancoil Operational Mode select"
+    id: "fancoil_operational_mode_select"
+    address: 1601
+    value_type: U_WORD
+    optimistic: true
+    optionsmap:
+      "Off": 0
+      "Fan": 1
+      "Cool": 2
+      "Heat": 3
+      "Dry": 4
+      "Auto": 5
